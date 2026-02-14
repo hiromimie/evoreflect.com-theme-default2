@@ -3,32 +3,32 @@
   "name": "default2",
   "version": "2.4.0",
   "author": "EvoReflect Team",
-  "description": "Default2 GUI theme with Nord-inspired light/dark mode and responsive design support (Issue #1121)",
+  "description": "Default2 GUI theme with Blue/Warm dual palette light/dark mode and responsive design support (Issue #1125)",
   "default_mode": "dark",
   "modes": {
     "dark": {
       "colors": {
         "background": {
-          "primary": "#2E3440",
-          "secondary": "#3B4252",
-          "tertiary": "#434C5E"
+          "primary": "#121C3B",
+          "secondary": "#243875",
+          "tertiary": "#3654B0"
         },
         "foreground": {
-          "primary": "#ECEFF4",
-          "secondary": "#D8DEE9",
-          "muted": "#4C566A"
+          "primary": "#E8ECF6",
+          "secondary": "#B8C4E0",
+          "muted": "#3654B0"
         },
         "accent": {
-          "primary": "#88C0D0",
-          "secondary": "#B48EAD"
+          "primary": "#9DAEE1",
+          "secondary": "#F2952C"
         },
         "semantic": {
-          "success": "#A3BE8C",
-          "error": "#BF616A",
-          "warning": "#EBCB8B",
-          "info": "#5E81AC"
+          "success": "#7EC89D",
+          "error": "#E87070",
+          "warning": "#F6B974",
+          "info": "#637ECF"
         },
-        "border": "#3B4252"
+        "border": "#243875"
       },
       "typography": {
         "fontFamily": "Inter, Noto Sans JP, sans-serif",
@@ -84,34 +84,34 @@
       "skeleton": {
         "preset": "skeleton",
         "customizations": {
-          "--color-primary-500": "#88C0D0",
-          "--color-secondary-500": "#B48EAD"
+          "--color-primary-500": "#9DAEE1",
+          "--color-secondary-500": "#F2952C"
         }
       }
     },
     "light": {
       "colors": {
         "background": {
-          "primary": "#ECEFF4",
-          "secondary": "#E5E9F0",
-          "tertiary": "#D8DEE9"
+          "primary": "#FBDDBC",
+          "secondary": "#F9D4A0",
+          "tertiary": "#F6B974"
         },
         "foreground": {
-          "primary": "#2E3440",
-          "secondary": "#3B4252",
-          "muted": "#7B88A1"
+          "primary": "#3D2200",
+          "secondary": "#7D4608",
+          "muted": "#A07840"
         },
         "accent": {
-          "primary": "#5E81AC",
-          "secondary": "#B48EAD"
+          "primary": "#C56F0D",
+          "secondary": "#3654B0"
         },
         "semantic": {
-          "success": "#A3BE8C",
-          "error": "#BF616A",
-          "warning": "#D08770",
-          "info": "#5E81AC"
+          "success": "#4D8030",
+          "error": "#C43030",
+          "warning": "#C56F0D",
+          "info": "#3654B0"
         },
-        "border": "#D8DEE9"
+        "border": "#F6B974"
       },
       "typography": {
         "fontFamily": "Inter, Noto Sans JP, sans-serif",

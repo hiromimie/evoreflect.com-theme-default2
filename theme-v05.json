@@ -3,7 +3,7 @@
   "name": "default2",
   "version": "0.5.0",
   "author": "EvoReflect Team",
-  "description": "EvoReflect default2 theme v0.5.0 with Nord-inspired token-based customization (Issue #1121)",
+  "description": "EvoReflect default2 theme v0.5.0 with Blue/Warm dual palette token-based customization (Issue #1125)",
   "license": "MIT",
   "default_mode": "dark",
   "type": "hybrid",
@@ -25,77 +25,77 @@
       "tokens": {
         "colors": {
           "surface": {
-            "50": "#ECEFF4",
-            "100": "#E5E9F0",
-            "200": "#D8DEE9",
-            "300": "#7B88A1",
-            "400": "#616E88",
-            "500": "#4C566A",
-            "600": "#434C5E",
-            "700": "#3B4252",
-            "800": "#2E3440",
-            "900": "#242933",
-            "950": "#1D2128"
+            "50": "#E8ECF6",
+            "100": "#D6DFEF",
+            "200": "#B8C4E0",
+            "300": "#9DAEE1",
+            "400": "#7A96D5",
+            "500": "#637ECF",
+            "600": "#3654B0",
+            "700": "#243875",
+            "800": "#121C3B",
+            "900": "#0D1530",
+            "950": "#080E22"
           },
           "primary": {
-            "50": "#F0F7FA",
-            "100": "#DFF0F5",
-            "200": "#BFE1EB",
-            "300": "#9FD2E1",
-            "400": "#88C0D0",
-            "500": "#88C0D0",
-            "600": "#6EB3C4",
-            "700": "#5A9BAD",
-            "800": "#468396",
-            "900": "#326B7F"
+            "50": "#EEF1FA",
+            "100": "#DDE3F5",
+            "200": "#BFC9E9",
+            "300": "#9DAEE1",
+            "400": "#9DAEE1",
+            "500": "#9DAEE1",
+            "600": "#8098D5",
+            "700": "#637ECF",
+            "800": "#4A64B8",
+            "900": "#3654B0"
           },
           "secondary": {
-            "500": "#81A1C1",
-            "600": "#6B8DAF"
+            "500": "#637ECF",
+            "600": "#4A64B8"
           },
           "accent": {
-            "500": "#B48EAD",
-            "600": "#A37A9C"
+            "500": "#F2952C",
+            "600": "#D9810F"
           },
           "success": {
-            "500": "#A3BE8C",
-            "600": "#8FAD78"
+            "500": "#7EC89D",
+            "600": "#68B787"
           },
           "warning": {
-            "500": "#EBCB8B",
-            "600": "#D9B86E"
+            "500": "#F6B974",
+            "600": "#F0A64E"
           },
           "error": {
-            "500": "#BF616A",
-            "600": "#AB4D56"
+            "500": "#E87070",
+            "600": "#D55A5A"
           },
           "info": {
-            "500": "#5E81AC",
-            "600": "#4A6D98"
+            "500": "#637ECF",
+            "600": "#4A64B8"
           },
           "cli": {
-            "primary": "#88C0D0",
-            "secondary": "#81A1C1",
-            "accent": "#B48EAD",
-            "background": "#2E3440",
-            "foreground": "#ECEFF4",
-            "success": "#A3BE8C",
-            "error": "#BF616A",
-            "warning": "#EBCB8B",
-            "info": "#5E81AC",
-            "border": "#4C566A",
-            "muted": "#4C566A",
-            "highlight": "#3B4252"
+            "primary": "#9DAEE1",
+            "secondary": "#637ECF",
+            "accent": "#F2952C",
+            "background": "#121C3B",
+            "foreground": "#E8ECF6",
+            "success": "#7EC89D",
+            "error": "#E87070",
+            "warning": "#F6B974",
+            "info": "#637ECF",
+            "border": "#243875",
+            "muted": "#3654B0",
+            "highlight": "#243875"
           },
           "agent": {
-            "reactive": "#A3BE8C",
-            "deliberative": "#81A1C1",
-            "metacognitive": "#B48EAD"
+            "reactive": "#7EC89D",
+            "deliberative": "#637ECF",
+            "metacognitive": "#F2952C"
           },
           "reasoning": {
-            "thought": "#EBCB8B",
-            "action": "#A3BE8C",
-            "observation": "#88C0D0"
+            "thought": "#F6B974",
+            "action": "#7EC89D",
+            "observation": "#9DAEE1"
           }
         },
         "semantic": {
@@ -334,39 +334,39 @@
       "tokens": {
         "colors": {
           "surface": {
-            "50": "#1D2128",
-            "100": "#242933",
-            "200": "#2E3440",
-            "300": "#3B4252",
-            "400": "#4C566A",
-            "500": "#616E88",
-            "600": "#D8DEE9",
-            "700": "#E5E9F0",
-            "800": "#ECEFF4",
-            "900": "#F5F7FA",
-            "950": "#FFFFFF"
+            "50": "#3D2200",
+            "100": "#4A2E08",
+            "200": "#5A3D10",
+            "300": "#7D4608",
+            "400": "#A07840",
+            "500": "#C56F0D",
+            "600": "#F6B974",
+            "700": "#F9D4A0",
+            "800": "#FBDDBC",
+            "900": "#FDE9D1",
+            "950": "#FFF4E8"
           },
           "primary": {
-            "500": "#5E81AC",
-            "600": "#4A6D98"
+            "500": "#C56F0D",
+            "600": "#A85C0A"
           },
           "secondary": {
-            "500": "#88C0D0",
-            "600": "#6EB3C4"
+            "500": "#F2952C",
+            "600": "#D9810F"
           },
           "cli": {
-            "primary": "#5E81AC",
-            "secondary": "#88C0D0",
-            "accent": "#B48EAD",
-            "background": "#ECEFF4",
-            "foreground": "#2E3440",
-            "success": "#A3BE8C",
-            "error": "#BF616A",
-            "warning": "#D08770",
-            "info": "#5E81AC",
-            "border": "#D8DEE9",
-            "muted": "#7B88A1",
-            "highlight": "#D8DEE9"
+            "primary": "#C56F0D",
+            "secondary": "#F2952C",
+            "accent": "#3654B0",
+            "background": "#FBDDBC",
+            "foreground": "#3D2200",
+            "success": "#4D8030",
+            "error": "#C43030",
+            "warning": "#C56F0D",
+            "info": "#3654B0",
+            "border": "#F6B974",
+            "muted": "#A07840",
+            "highlight": "#F6B974"
           }
         },
         "semantic": {
