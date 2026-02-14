@@ -1,0 +1,70 @@
+{
+  "$schema": "https://evoreflect.com/schemas/cli-theme-v2.json",
+  "name": "default2",
+  "version": "2.4.0",
+  "author": "EvoReflect Team",
+  "description": "EvoReflect default2 theme with Nord-inspired light/dark mode support (Issue #1121)",
+  "type": "hybrid",
+  "default_mode": "dark",
+  "gui_theme": "gui-theme.json",
+  "modes": {
+    "light": {
+      "color_scheme": {
+        "primary": "#5E81AC",
+        "secondary": "#88C0D0",
+        "accent": "#B48EAD",
+        "background": "#ECEFF4",
+        "foreground": "#2E3440",
+        "success": "#A3BE8C",
+        "error": "#BF616A",
+        "warning": "#D08770",
+        "info": "#5E81AC",
+        "border": "#D8DEE9",
+        "muted": "#7B88A1",
+        "highlight": "#D8DEE9",
+        "agent_reactive": "#A3BE8C",
+        "agent_deliberative": "#5E81AC",
+        "agent_metacognitive": "#B48EAD",
+        "thought_color": "#D08770",
+        "action_color": "#A3BE8C",
+        "observation_color": "#88C0D0"
+      },
+      "syntax_theme": "github",
+      "panel_style": {
+        "border_style": "rounded",
+        "box": "ROUNDED",
+        "padding": [1, 2, 1, 2],
+        "title_align": "left"
+      }
+    },
+    "dark": {
+      "color_scheme": {
+        "primary": "#88C0D0",
+        "secondary": "#81A1C1",
+        "accent": "#B48EAD",
+        "background": "#2E3440",
+        "foreground": "#ECEFF4",
+        "success": "#A3BE8C",
+        "error": "#BF616A",
+        "warning": "#EBCB8B",
+        "info": "#5E81AC",
+        "border": "#4C566A",
+        "muted": "#4C566A",
+        "highlight": "#3B4252",
+        "agent_reactive": "#A3BE8C",
+        "agent_deliberative": "#81A1C1",
+        "agent_metacognitive": "#B48EAD",
+        "thought_color": "#EBCB8B",
+        "action_color": "#A3BE8C",
+        "observation_color": "#88C0D0"
+      },
+      "syntax_theme": "nord",
+      "panel_style": {
+        "border_style": "rounded",
+        "box": "ROUNDED",
+        "padding": [1, 2, 1, 2],
+        "title_align": "left"
+      }
+    }
+  }
+}

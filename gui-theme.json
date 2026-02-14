@@ -1,0 +1,173 @@
+{
+  "$schema": "https://evoreflect.com/schemas/gui-theme-v2.json",
+  "name": "default2",
+  "version": "2.4.0",
+  "author": "EvoReflect Team",
+  "description": "Default2 GUI theme with Nord-inspired light/dark mode and responsive design support (Issue #1121)",
+  "default_mode": "dark",
+  "modes": {
+    "dark": {
+      "colors": {
+        "background": {
+          "primary": "#2E3440",
+          "secondary": "#3B4252",
+          "tertiary": "#434C5E"
+        },
+        "foreground": {
+          "primary": "#ECEFF4",
+          "secondary": "#D8DEE9",
+          "muted": "#4C566A"
+        },
+        "accent": {
+          "primary": "#88C0D0",
+          "secondary": "#B48EAD"
+        },
+        "semantic": {
+          "success": "#A3BE8C",
+          "error": "#BF616A",
+          "warning": "#EBCB8B",
+          "info": "#5E81AC"
+        },
+        "border": "#3B4252"
+      },
+      "typography": {
+        "fontFamily": "Inter, Noto Sans JP, sans-serif",
+        "fontFamilyMono": "JetBrains Mono, monospace",
+        "fontSize": {
+          "xs": "11px",
+          "sm": "12px",
+          "base": "14px",
+          "lg": "16px",
+          "xl": "18px"
+        },
+        "lineHeight": "1.6"
+      },
+      "layout": {
+        "sidebar": {
+          "width": "280px",
+          "position": "left",
+          "collapsible": true
+        },
+        "chat": {
+          "maxWidth": "800px",
+          "bubbleStyle": "rounded",
+          "avatarSize": "48px"
+        },
+        "borderRadius": {
+          "sm": "4px",
+          "md": "8px",
+          "lg": "16px"
+        },
+        "breakpoints": {
+          "mobile": "768px",
+          "tablet": "1024px",
+          "desktop": "1440px"
+        },
+        "responsive": true
+      },
+      "assets": {
+        "logo": {
+          "path": "assets/logo.svg",
+          "width": "120px"
+        }
+      },
+      "avatar": {
+        "user": {
+          "path": "avatar/user.svg",
+          "fallback": "default"
+        },
+        "assistant": {
+          "path": "avatar/assistant.svg",
+          "fallback": "default"
+        }
+      },
+      "skeleton": {
+        "preset": "skeleton",
+        "customizations": {
+          "--color-primary-500": "#88C0D0",
+          "--color-secondary-500": "#B48EAD"
+        }
+      }
+    },
+    "light": {
+      "colors": {
+        "background": {
+          "primary": "#ECEFF4",
+          "secondary": "#E5E9F0",
+          "tertiary": "#D8DEE9"
+        },
+        "foreground": {
+          "primary": "#2E3440",
+          "secondary": "#3B4252",
+          "muted": "#7B88A1"
+        },
+        "accent": {
+          "primary": "#5E81AC",
+          "secondary": "#B48EAD"
+        },
+        "semantic": {
+          "success": "#A3BE8C",
+          "error": "#BF616A",
+          "warning": "#D08770",
+          "info": "#5E81AC"
+        },
+        "border": "#D8DEE9"
+      },
+      "typography": {
+        "fontFamily": "Inter, Noto Sans JP, sans-serif",
+        "fontFamilyMono": "JetBrains Mono, monospace",
+        "fontSize": {
+          "xs": "11px",
+          "sm": "12px",
+          "base": "14px",
+          "lg": "16px",
+          "xl": "18px"
+        },
+        "lineHeight": "1.6"
+      },
+      "layout": {
+        "sidebar": {
+          "width": "280px",
+          "position": "left",
+          "collapsible": true
+        },
+        "chat": {
+          "maxWidth": "800px",
+          "bubbleStyle": "rounded",
+          "avatarSize": "48px"
+        },
+        "borderRadius": {
+          "sm": "4px",
+          "md": "8px",
+          "lg": "16px"
+        },
+        "breakpoints": {
+          "mobile": "768px",
+          "tablet": "1024px",
+          "desktop": "1440px"
+        },
+        "responsive": true
+      },
+      "assets": {
+        "logo": {
+          "path": "assets/logo.svg",
+          "width": "120px"
+        }
+      },
+      "avatar": {
+        "user": {
+          "path": "avatar/user.svg",
+          "fallback": "default"
+        },
+        "assistant": {
+          "path": "avatar/assistant.svg",
+          "fallback": "default"
+        }
+      },
+      "skeleton": {
+        "preset": "evoreflect-light",
+        "customizations": {}
+      }
+    }
+  }
+}
