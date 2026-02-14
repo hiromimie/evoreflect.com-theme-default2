@@ -89,7 +89,7 @@
       "colors": {
         "background": {
           "primary": "#FFF7ED",
-          "secondary": "#FFFFFF",
+          "secondary": "#FFF1E6",
           "tertiary": "#FED7AA"
         },
         "foreground": {
