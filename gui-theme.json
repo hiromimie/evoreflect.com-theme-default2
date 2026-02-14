@@ -84,8 +84,31 @@
       "skeleton": {
         "preset": "skeleton",
         "customizations": {
+          "--color-surface-50": "#E8ECF6",
+          "--color-surface-100": "#D6DFEF",
+          "--color-surface-200": "#B8C4E0",
+          "--color-surface-300": "#9DAEE1",
+          "--color-surface-400": "#7A96D5",
+          "--color-surface-500": "#637ECF",
+          "--color-surface-600": "#3654B0",
+          "--color-surface-700": "#243875",
+          "--color-surface-800": "#121C3B",
+          "--color-surface-900": "#0D1530",
+          "--color-primary-50": "#EEF1FA",
+          "--color-primary-100": "#DDE3F5",
+          "--color-primary-200": "#BFC9E9",
+          "--color-primary-300": "#9DAEE1",
+          "--color-primary-400": "#9DAEE1",
           "--color-primary-500": "#9DAEE1",
-          "--color-secondary-500": "#F2952C"
+          "--color-primary-600": "#8098D5",
+          "--color-primary-700": "#637ECF",
+          "--color-primary-800": "#4A64B8",
+          "--color-primary-900": "#3654B0",
+          "--color-secondary-500": "#F2952C",
+          "--color-tertiary-500": "#637ECF",
+          "--color-success-500": "#7EC89D",
+          "--color-warning-500": "#F6B974",
+          "--color-error-500": "#E87070"
         }
       }
     },
@@ -166,7 +189,26 @@
       },
       "skeleton": {
         "preset": "evoreflect-light",
-        "customizations": {}
+        "customizations": {
+          "--color-surface-50": "#3D2200",
+          "--color-surface-100": "#4A2E08",
+          "--color-surface-200": "#5A3D10",
+          "--color-surface-300": "#7D4608",
+          "--color-surface-400": "#A07840",
+          "--color-surface-500": "#C56F0D",
+          "--color-surface-600": "#F6B974",
+          "--color-surface-700": "#F9D4A0",
+          "--color-surface-800": "#FBDDBC",
+          "--color-surface-900": "#FDE9D1",
+          "--color-primary-500": "#C56F0D",
+          "--color-primary-600": "#A85C0A",
+          "--color-primary-700": "#7D4608",
+          "--color-secondary-500": "#F2952C",
+          "--color-tertiary-500": "#3654B0",
+          "--color-success-500": "#4D8030",
+          "--color-warning-500": "#C56F0D",
+          "--color-error-500": "#C43030"
+        }
       }
     }
   }

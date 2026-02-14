@@ -220,7 +220,8 @@
         },
         "toolsPanel": {
           "visible": true,
-          "width": "320px"
+          "width": "320px",
+          "background": "{semantic.background.sidebar}"
         }
       },
       "components": {
@@ -389,6 +390,43 @@
             "subtle": "{colors.surface.700}",
             "strong": "{colors.surface.500}"
           }
+        }
+      },
+      "regions": {
+        "header": {
+          "visible": true,
+          "height": "64px",
+          "background": "{semantic.background.header}",
+          "borderRadius": "0"
+        },
+        "footer": {
+          "visible": true,
+          "height": "32px",
+          "background": "{semantic.background.footer}"
+        },
+        "sidebarLeft": {
+          "visible": true,
+          "width": "280px",
+          "minWidth": "200px",
+          "maxWidth": "400px",
+          "background": "{semantic.background.sidebar}"
+        },
+        "sidebarRight": {
+          "visible": false,
+          "width": "280px"
+        },
+        "main": {
+          "flex": "1",
+          "overflow": "auto"
+        },
+        "chatArea": {
+          "maxWidth": "800px",
+          "padding": "1rem"
+        },
+        "toolsPanel": {
+          "visible": true,
+          "width": "320px",
+          "background": "{semantic.background.sidebar}"
         }
       }
     }
