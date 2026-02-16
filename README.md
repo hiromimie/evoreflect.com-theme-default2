@@ -21,6 +21,9 @@ evoreflect.com-theme-default2/
 ├── theme.json       # テーマ定義ファイル（JSON形式）
 ├── gui-theme.json   # GUIテーマ定義（オプション）
 ├── theme-v05.json   # トークンベーステーマ（v0.5.0形式）
+├── avatar/          # アバター画像（Issue #1189）
+│   ├── user.svg     # ユーザーアバター
+│   └── assistant.svg # アシスタントアバター
 ├── README.md        # このファイル
 └── LICENSE          # MITライセンス
 ```
@@ -31,6 +34,7 @@ evoreflect.com-theme-default2/
 - **レスポンシブデザイン対応**: モバイル、タブレット、デスクトップに最適化されたレイアウト
 - **ハイブリッドテーマ**: CLI（terminal）とGUI（Web）の両方で使用可能
 - **デュアルパレット設計**: ダーク/ライトモードで独立したカラーパレット
+- **カスタムアバター** (Issue #1189): テーマカラーに合わせたSVGアバター画像を同梱
 
 ## カラーパレット
 
