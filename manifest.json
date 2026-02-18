@@ -1,0 +1,24 @@
+{
+  "$schema": "https://evoreflect.com/schemas/template-manifest-v1.json",
+  "id": "evoreflect/default2",
+  "name": "Default 2",
+  "version": "1.0.0",
+  "evoreflect_version": ">=0.6.0",
+  "author": {
+    "name": "EvoReflect Team"
+  },
+  "license": "MIT",
+  "description": {
+    "ja": "ウォームトーンとクールトーンを組み合わせたデュアルパレットテンプレート。ライトモードはアンバー系、ダークモードはブルー系の配色。",
+    "en": "Dual-palette template combining warm and cool tones. Light mode features amber tones, dark mode features cool blue tones."
+  },
+  "display_colors": {
+    "auto": false,
+    "colors": ["#121C3B", "#9DAEE1", "#F2952C"]
+  },
+  "category": "dark",
+  "tags": ["warm", "cool", "dual-palette"],
+  "design": "design/tokens.json",
+  "layout": "layout/default.json",
+  "assets": "assets/"
+}
